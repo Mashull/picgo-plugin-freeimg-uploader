@@ -1,0 +1,35 @@
+{
+  "name": "picgo-plugin-freeimg",
+  "version": "1.0.0",
+  "description": "Picgo plugin for Freeimg图床",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/Mashull/picgo-plugin-freeimg-uploader",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch && git push origin master && git push origin --tags",
+    "minor": "npm version minor && git push origin master && git push origin --tags",
+    "major": "npm version major && git push origin master && git push origin --tags"
+  },
+  "keywords": [
+    "picgo",
+    "picgo-gui-plugin",
+    "picgo-plugin",
+	"freeimg"
+  ],
+  "author": "Pfan",
+  "repository": {
+    "type": "git",
+    "ssh": "git@github.com:Mashull/picgo-plugin-freeimg-uploader.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.0"
+  }
+}
